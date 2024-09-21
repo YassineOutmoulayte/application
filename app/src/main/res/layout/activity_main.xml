@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculer votre Moyenne !"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/titre"
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/note1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="entre la note de svt"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/note2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="entre la note Math"
+        android:inputType="numberDecimal"
+
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/note3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="entre La note de pc"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/note4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="entre la note arabe"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+
+        android:layout_marginTop="16dp"
+        />
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculer"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="resultate   "
+        android:textSize="16sp"
+        android:textColor="@color/secondaryText"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
